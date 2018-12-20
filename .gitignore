@@ -1,0 +1,7 @@
+.DS_Store
+node_modules/
+git-crypt.key
+yarn.lock
+package-lock.json
+*.log
+.env
