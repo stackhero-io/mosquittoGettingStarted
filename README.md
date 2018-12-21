@@ -12,7 +12,7 @@ You'll get more informations about the API authentication on [Stackhero's docume
 
 To use the client, you have to fill the file `.env-example` and rename the file `.env`.
 
-Then simply run `node client.js` (or `npm run client`).
+Then simply run `npm run client`.
 
 
 ## The authentication server
