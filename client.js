@@ -7,6 +7,7 @@ if (!process.env.MOSQUITTO_SERVER) {
 
 // Connection to MQTT server
 const client = mqtt.connect(
+  // Note: you can replace 'mqtts' per 'wss' to connect to Mosquitto using websockets (you need to activate the option on Stackhero console and to configure "Security shield" to allow your IPs).
   'mqtts://' + process.env.MOSQUITTO_SERVER,
   {
     username: process.env.MOSQUITTO_USERNAME,
