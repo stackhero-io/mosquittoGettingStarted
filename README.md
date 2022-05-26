@@ -6,7 +6,7 @@ The `client.js` is a MQTT client that will show you how to connect, publish and 
 
 The `authenticationServer.js` is an API written with Express that will allow you to handle MQTT users authentication in a simple and powerful way.
 
-You'll get more informations about the API authentication on [Stackhero's documentation](https://www.stackhero.io/documentations/).
+You'll get more informations about the API authentication on [Stackhero for MQTT Mosquitto documentation](https://www.stackhero.io/en/services/Mosquitto/documentations).
 
 ## The client
 
