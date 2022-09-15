@@ -1,5 +1,18 @@
 # Getting started with Mosquitto
 
+## How to send data from Node.js to Mosquitto
+
+You can find here some examples of Node.js code to send data to a Mosquitto server.
+
+These examples are designed to run with a Stackhero Mosquitto service.
+You'll more informations about Stackhero here:
+- [Mosquitto cloud](https://www.stackhero.io/en/services/Mosquitto/benefits)
+- [Mosquitto pricing](https://www.stackhero.io/en/services/Mosquitto/pricing)
+- [Mosquitto documentations](https://www.stackhero.io/en/services/Mosquitto/documentations)
+
+
+## How to use
+
 You'll find in this repository two applications.
 
 The `client.js` is a MQTT client that will show you how to connect, publish and subscribe to a MQTT server.
